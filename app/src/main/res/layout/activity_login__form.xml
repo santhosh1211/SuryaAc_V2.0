@@ -25,13 +25,13 @@
         >
 
         <EditText
+            android:id="@+id/ed_username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="username"
             android:ems="10"
+            android:hint="username"
             android:inputType="text"
-            android:textSize="20sp"
-            />
+            android:textSize="20sp" />
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
@@ -43,24 +43,24 @@
         >
 
         <EditText
+            android:id="@+id/ed_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="password"
             android:ems="10"
+            android:hint="password"
             android:inputType="textPassword"
-            android:textSize="20sp"
-            />
+            android:textSize="20sp" />
     </android.support.design.widget.TextInputLayout>
 
     <Button
+        android:id="@+id/btn_login"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:text="Login"
-        android:textSize="22sp"
-        android:textColor="#ffffff"
         android:layout_marginTop="40dp"
         android:background="@drawable/button_rounded"
-        />
+        android:text="Login"
+        android:textColor="#ffffff"
+        android:textSize="22sp" />
 
 </LinearLayout>
 
