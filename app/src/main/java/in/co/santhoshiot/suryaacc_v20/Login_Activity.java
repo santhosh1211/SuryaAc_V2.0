@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class Login_Form extends AppCompatActivity {
+public class Login_Activity extends AppCompatActivity {
 
     private EditText username;
     private EditText password;
@@ -26,7 +26,7 @@ public class Login_Form extends AppCompatActivity {
         Login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Login_Form.this, SecondActivity.class);
+                Intent intent = new Intent(Login_Activity.this, Report_Activity.class);
                 startActivity(intent);
                 validate(username.getText().toString(),password.getText().toString());
             }
@@ -44,7 +44,7 @@ public class Login_Form extends AppCompatActivity {
 
     private void validate(String username, String password){
         if((username.equals("user")) && (password.equals("user2"))){
-            Intent intent = new Intent(Login_Form.this, SecondActivity.class);
+            Intent intent = new Intent(Login_Activity.this, Manager_page_Activity.class);
             startActivity(intent);
         }
     }

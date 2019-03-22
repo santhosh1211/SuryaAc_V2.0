@@ -3,7 +3,7 @@ package in.co.santhoshiot.suryaacc_v20;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class SecondActivity extends AppCompatActivity {
+public class Report_Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

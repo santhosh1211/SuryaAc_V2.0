@@ -4,7 +4,7 @@ android {
     compileSdkVersion 28
     defaultConfig {
         applicationId "in.co.santhoshiot.suryaacc_v20"
-        minSdkVersion 16
+        minSdkVersion 23
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
@@ -19,7 +19,7 @@ android {
     android.applicationVariants.all { variant ->
         variant.outputs.all {
             def appName = "surya acc v2.0"
-            outputFileName = appName+"-${variant.versionName}.apk"
+            outputFileName = appName + "-${variant.versionName}.apk"
         }
     }
 }
