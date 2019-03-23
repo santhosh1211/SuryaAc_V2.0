@@ -39,13 +39,11 @@ public class Manager_page_Activity extends AppCompatActivity {
         someHandler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                d_time1.setText(new SimpleDateFormat("dd/MM/yyyy HH:mm:ss", Locale.US).format(new Date()));
+                d_time1.setText(new SimpleDateFormat("dd-MM-yyyy  hh:mm a", Locale.US).format(new Date()));
                 someHandler.postDelayed(this,1000);
 
             }
         },10);
-
-
     }
 }
 
