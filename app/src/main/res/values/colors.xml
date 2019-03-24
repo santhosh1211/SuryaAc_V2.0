@@ -4,4 +4,6 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#DF4310</color>
     <color name="background">#CEC8D6</color>
+    <color name="login">#000000</color>
+    <color name="back_activity">#ffffff</color>
 </resources>
