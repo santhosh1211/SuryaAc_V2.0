@@ -45,10 +45,10 @@
             android:text="new report"
             android:textColor="#ffffff"
             android:textSize="25sp" />
-        
-        
+
+
     </LinearLayout>
 
-   
+
 
 </LinearLayout>

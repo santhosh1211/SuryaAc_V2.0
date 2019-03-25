@@ -3,11 +3,10 @@
     package="in.co.santhoshiot.suryaacc_v20">
 
     <supports-screens
-        android:smallScreens="true"
         android:largeScreens="true"
         android:normalScreens="true"
-        android:xlargeScreens="true"
-        />
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
 
     <application
         android:allowBackup="true"
@@ -16,9 +15,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Manager_page_Activity"></activity>
+        <activity android:name=".f_New_Report"></activity>
+        <activity android:name=".f_Manger_page" />
+        <activity android:name=".TestActivity" />
+        <activity android:name=".Manager_page_Activity" />
         <activity android:name=".Report_Activity" />
-        <activity android:name=".MainActivity" />
         <activity android:name=".Login_Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
