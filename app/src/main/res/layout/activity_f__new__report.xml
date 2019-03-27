@@ -69,6 +69,17 @@
                     android:textColor="@color/text_color_left"
                     />
 
+                <TextView
+                    android:id="@+id/tv_date"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:padding="10dip"
+                    android:text="Pick Date"
+                    android:textColor="@color/hint_color" />
+
+                <!--
+
                 <EditText
                     android:singleLine="true"
                     android:layout_weight="1"
@@ -80,6 +91,8 @@
                     android:maxLength="12"
                     android:background="@color/WHITE"
                     android:textColor="@color/text_color_right" />
+                -->
+
             </TableRow>
 
 
@@ -92,18 +105,15 @@
                     android:background="@color/text_add"
                     android:textColor="@color/text_color_left"
                     />
-                <EditText
-                    android:background="@color/text_add"
-                    android:gravity="right"
-                    android:layout_weight="1"
-                    android:padding="10dip"
+                <TextView
+                    android:id="@+id/tv_date1"
                     android:layout_width="0dp"
-                    android:hint="enter"
-                    android:textSize="14sp"
-                    android:maxLength="12"
-                    android:singleLine="true"
-                    android:inputType="text"
-                    android:textColor="@color/text_color_right" />
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:padding="10dip"
+                    android:text="Pick Date"
+                    android:background="@color/text_add"
+                    android:textColor="@color/hint_color" />
             </TableRow>
 
 

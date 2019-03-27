@@ -21,40 +21,37 @@
         android:scaleType="fitCenter"
         android:src="@drawable/icon" />
 
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
 
-        android:textColorHint="@color/colorAccent">
 
         <EditText
             android:id="@+id/ed_username"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:ems="10"
-            android:hint="username"
+            android:paddingLeft="10dp"
+            android:hint="Username"
+            android:background="@drawable/edittext_frame"
             android:imeOptions="actionNext"
             android:inputType="text"
             android:textSize="18sp" />
-    </android.support.design.widget.TextInputLayout>
 
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
 
-        android:textColorHint="@color/colorAccent">
+
 
         <EditText
             android:id="@+id/ed_password"
             android:layout_width="match_parent"
             android:layout_height="40dp"
+            android:layout_marginTop="4dp"
+            android:paddingLeft="10dp"
             android:ems="10"
-            android:hint="password"
+            android:hint="Password"
+            android:background="@drawable/edittext_frame"
             android:layout_marginBottom="15dp"
             android:imeOptions="actionDone"
             android:inputType="textPassword"
             android:textSize="18sp" />
-    </android.support.design.widget.TextInputLayout>
+
 
     <Button
         android:id="@+id/btn_login"
@@ -90,7 +87,7 @@
         android:layout_marginTop="3dp"
         android:textAlignment="center"
         android:textColor="#000000"
-        android:text="Version 21.0" />
+        android:text="Version 24" />
 <!--
     <TextView
         android:id="@+id/tv4"

@@ -16,4 +16,11 @@
     <color name="BLACK">#000000</color>
     <color name="Dark_orange">#963019</color>
     <color name="light_ash_color">#f2f4f2</color>
+    <color name="hint_color">#808080</color>
+    <color name="primary_light">#ffffff</color>
+
+
+
+
+
 </resources>
