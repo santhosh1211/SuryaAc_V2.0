@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class f_Manger_page extends AppCompatActivity {
+public class f_Manger_Page extends AppCompatActivity {
 
     private Button Nr_btn;
 
@@ -15,12 +15,12 @@ public class f_Manger_page extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_f__manger_page);
 
-        Nr_btn = (Button)findViewById(R.id.Nw_btn1);
+        Nr_btn = (Button)findViewById(R.id.SubmitButton);
 
         Nr_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(f_Manger_page.this, f_New_Report.class);
+                Intent intent = new Intent(f_Manger_Page.this, f_New_Report.class);
                 startActivity(intent);
             }
         });

@@ -10,7 +10,7 @@
     <color name="text_even">#ffffff</color>
     <color name="text_color_right">#963019</color>
     <color name="text_color_left">#000000</color>
-    <color name="table_background">#963019</color>
+    <color name="table_background">#DF4310</color>
 
     <color name="WHITE">#ffffff</color>
     <color name="BLACK">#000000</color>
@@ -18,6 +18,8 @@
     <color name="light_ash_color">#f2f4f2</color>
     <color name="hint_color">#808080</color>
     <color name="primary_light">#ffffff</color>
+
+    <color name="button_background">#808080</color>
 
 
 

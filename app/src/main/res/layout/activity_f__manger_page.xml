@@ -17,8 +17,10 @@
             >
             <TextView
                 android:text="Surya Enterprises"
+                android:textAllCaps="true"
                 android:padding="10dip"
-                android:textSize="20dp"
+                android:textSize="22dp"
+                android:gravity="center_horizontal"
                 android:textColor="@color/WHITE"
 
                 />
@@ -98,12 +100,34 @@
                 android:padding="10dip" />
         </TableRow>
 
-        <TableRow>
 
-            <Button
-                android:id="@+id/Nw_btn1"
-                android:text="New Report" />
+
+
+        <TableRow
+            android:layout_marginTop="5dp">
+            <FrameLayout
+                android:layout_height="wrap_content"
+
+                >
+
+                <Button
+                    android:id="@+id/SubmitButton"
+                    android:layout_width="193dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="0dp"
+
+                    android:background="@color/table_background"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="New report"
+                    android:textAllCaps="false"
+                    android:textColor="@color/WHITE"
+                    android:textSize="20dp"></Button>
+            </FrameLayout>
         </TableRow>
+
+
 
     </TableLayout>
 

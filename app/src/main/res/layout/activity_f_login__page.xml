@@ -2,6 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/back_activity"
     >
 
 <LinearLayout
@@ -88,20 +89,11 @@
         android:textAlignment="center"
         android:textColor="#000000"
         android:text="Version 24" />
-<!--
-    <TextView
-        android:id="@+id/tv4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="3dp"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:text="+917010895652"
-        android:autoLink="phone"
-        android:linksClickable="true"
 
-        />
--->
+
+
+
+
 </LinearLayout>
 
 </ScrollView>

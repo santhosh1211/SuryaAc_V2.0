@@ -9,18 +9,29 @@ import android.widget.EditText;
 
 public class Login_Activity extends AppCompatActivity {
 
+    private static final String TAG = "Login_Activity";
+
     private EditText username;
     private EditText password;
     private Button Login;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login__form);
+        setContentView(R.layout.activity_f_login__page);
 
-        username = (EditText)findViewById(R.id.ed_username);
-        password = (EditText)findViewById(R.id.ed_password);
-        Login = (Button)findViewById(R.id.btn_login);
+        username = (EditText) findViewById(R.id.ed_username);
+        password = (EditText) findViewById(R.id.ed_password);
+        Login = (Button) findViewById(R.id.btn_login);
+
+
+
+
+
+
+
 
 /*
         Login.setOnClickListener(new View.OnClickListener() {
@@ -44,7 +55,7 @@ public class Login_Activity extends AppCompatActivity {
 
     private void validate(String username, String password){
         if((username.equals("user")) && (password.equals("user2"))){
-            Intent intent = new Intent(Login_Activity.this, f_Manger_page.class);
+            Intent intent = new Intent(Login_Activity.this, f_Manger_Page.class);
             startActivity(intent);
         }
     }

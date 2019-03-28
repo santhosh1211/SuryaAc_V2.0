@@ -8,66 +8,65 @@
     tools:context=".f_New_Report">
 
     <ScrollView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
+
         >
 
         <TableLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:stretchColumns="*"
+            android:stretchColumns="*">
 
-            >
             <TableRow
                 android:background="@color/table_background"
                 android:gravity="center_horizontal">
+
                 <TextView
-                    android:text="Surya Enterprises Report"
+                    android:gravity="center_horizontal"
                     android:padding="10dip"
-                    android:textSize="25dp"
+                    android:text="Surya Enterprises report"
+                    android:textAllCaps="true"
                     android:textColor="@color/WHITE"
+                    android:textSize="22dp"
+
                     />
+
             </TableRow>
 
-
-
-
-
-
-
-
             <TableRow>
+
                 <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/text_add"
+                    android:padding="10dip"
                     android:text="Vehicle No"
-                    android:padding="10dip"
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:background="@color/text_add"
-                    android:textColor="@color/text_color_left"
-                    />
+                    android:textColor="@color/text_color_left" />
+
                 <EditText
-                    android:background="@color/text_add"
-                    android:layout_weight="1"
-                    android:gravity="right"
                     android:layout_width="0dp"
-                    android:padding="10dip"
+                    android:layout_weight="1"
+                    android:background="@color/text_add"
+                    android:gravity="right"
                     android:hint="ex:TN38 BR8397"
-                    android:maxLength="12"
-                    android:textSize="14sp"
-                    android:singleLine="true"
                     android:inputType="text"
-                    android:textColor="@color/text_color_right" />
+                    android:maxLength="12"
+                    android:padding="10dip"
+                    android:singleLine="true"
+                    android:textColor="@color/text_color_right"
+                    android:textSize="14sp" />
             </TableRow>
 
 
             <TableRow android:background="@color/text_even">
+
                 <TextView
-                    android:text="Start Date"
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:padding="10dip"
-                    android:textColor="@color/text_color_left"
-                    />
+                    android:text="Start Date"
+                    android:textColor="@color/text_color_left" />
 
                 <TextView
                     android:id="@+id/tv_date"
@@ -97,27 +96,28 @@
 
 
             <TableRow>
+
                 <TextView
-                    android:text="Close Date"
                     android:layout_width="0dp"
                     android:layout_weight="1"
-                    android:padding="10dip"
                     android:background="@color/text_add"
-                    android:textColor="@color/text_color_left"
-                    />
+                    android:padding="10dip"
+                    android:text="Close Date"
+                    android:textColor="@color/text_color_left" />
+
                 <TextView
                     android:id="@+id/tv_date1"
                     android:layout_width="0dp"
                     android:layout_weight="1"
+                    android:background="@color/text_add"
                     android:gravity="right"
                     android:padding="10dip"
                     android:text="Pick Date"
-                    android:background="@color/text_add"
                     android:textColor="@color/hint_color" />
             </TableRow>
 
 
-<!--
+            <!--
             <TableRow android:background="@color/text_even">
                 <TextView
                     android:text="Start Date and Time"
@@ -167,163 +167,193 @@
             -->
 
             <TableRow android:background="@color/text_even">
+
                 <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="10dip"
                     android:text="Point No"
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:padding="10dip"
-                    android:textColor="@color/text_color_left"
-                    />
+                    android:textColor="@color/text_color_left" />
 
                 <EditText
-                    android:singleLine="true"
-                    android:gravity="right"
-                    android:maxLength="12"
-                    android:layout_weight="1"
                     android:layout_width="0dp"
-                    android:padding="10dip"
-                    android:hint="enter"
-                    android:textSize="14sp"
+                    android:layout_weight="1"
                     android:background="@color/WHITE"
-                    android:textColor="@color/text_color_right" />
+                    android:gravity="right"
+                    android:hint="enter"
+                    android:maxLength="12"
+                    android:padding="10dip"
+                    android:singleLine="true"
+                    android:textColor="@color/text_color_right"
+                    android:textSize="14sp" />
             </TableRow>
 
 
-
             <TableRow>
+
                 <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/text_add"
+                    android:padding="10dip"
                     android:text="T.P No"
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:padding="10dip"
-                    android:background="@color/text_add"
-                    android:textColor="@color/text_color_left"
-                    />
+                    android:textColor="@color/text_color_left" />
+
                 <EditText
-                    android:background="@color/text_add"
-                    android:layout_weight="1"
-                    android:gravity="right"
-                    android:padding="10dip"
                     android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/text_add"
+                    android:gravity="right"
                     android:hint="enter"
-                    android:maxLength="12"
-                    android:textSize="14sp"
-                    android:singleLine="true"
                     android:inputType="text"
-                    android:textColor="@color/text_color_right" />
+                    android:maxLength="12"
+                    android:padding="10dip"
+                    android:singleLine="true"
+                    android:textColor="@color/text_color_right"
+                    android:textSize="14sp" />
             </TableRow>
 
             <TableRow android:background="@color/text_even">
+
                 <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="10dip"
                     android:text="Place"
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:padding="10dip"
-                    android:textColor="@color/text_color_left"
-                    />
+                    android:textColor="@color/text_color_left" />
 
                 <EditText
-                    android:singleLine="true"
-                    android:layout_weight="1"
                     android:layout_width="0dp"
-                    android:maxLength="12"
-                    android:gravity="right"
-                    android:padding="10dip"
-                    android:hint="enter"
-                    android:textSize="14sp"
+                    android:layout_weight="1"
                     android:background="@color/WHITE"
-                    android:textColor="@color/text_color_right" />
+                    android:gravity="right"
+                    android:hint="enter"
+                    android:maxLength="12"
+                    android:padding="10dip"
+                    android:singleLine="true"
+                    android:textColor="@color/text_color_right"
+                    android:textSize="14sp" />
             </TableRow>
 
 
             <TableRow>
+
                 <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/text_add"
+                    android:padding="10dip"
                     android:text="Advance"
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:padding="10dip"
-                    android:background="@color/text_add"
-                    android:textColor="@color/text_color_left"
-                    />
+                    android:textColor="@color/text_color_left" />
+
                 <EditText
-                    android:background="@color/text_add"
-                    android:layout_weight="1"
-                    android:gravity="right"
-                    android:maxLength="12"
                     android:layout_width="0dp"
-                    android:padding="10dip"
+                    android:layout_weight="1"
+                    android:background="@color/text_add"
+                    android:gravity="right"
                     android:hint="enter"
-                    android:textSize="14sp"
-                    android:singleLine="true"
                     android:inputType="text"
-                    android:textColor="@color/text_color_right" />
+                    android:maxLength="12"
+                    android:padding="10dip"
+                    android:singleLine="true"
+                    android:textColor="@color/text_color_right"
+                    android:textSize="14sp" />
             </TableRow>
 
 
             <TableRow android:background="@color/text_even">
+
                 <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="10dip"
                     android:text="Agent Name"
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:padding="10dip"
-                    android:textColor="@color/text_color_left"
-                    />
+                    android:textColor="@color/text_color_left" />
 
                 <EditText
-                    android:singleLine="true"
-                    android:layout_weight="1"
                     android:layout_width="0dp"
-                    android:gravity="right"
-                    android:padding="10dip"
-                    android:maxLength="12"
-                    android:hint="enter"
-                    android:textSize="14sp"
+                    android:layout_weight="1"
                     android:background="@color/WHITE"
-                    android:textColor="@color/text_color_right" />
-            </TableRow>
-
-
-            <TableRow>
-                <TextView
-                    android:text="Cell No"
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:padding="10dip"
-                    android:background="@color/text_add"
-                    android:textColor="@color/text_color_left"
-                    />
-                <EditText
-                    android:background="@color/text_add"
-                    android:layout_weight="1"
                     android:gravity="right"
-                    android:layout_width="0dp"
-                    android:padding="10dip"
                     android:hint="enter"
                     android:maxLength="12"
-                    android:textSize="14sp"
+                    android:padding="10dip"
                     android:singleLine="true"
-                    android:inputType="text"
-                    android:textColor="@color/text_color_right" />
+                    android:textColor="@color/text_color_right"
+                    android:textSize="14sp" />
             </TableRow>
+
 
             <TableRow>
-                <Button
-                    android:text="Submit"
 
-                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/text_add"
+                    android:padding="10dip"
+                    android:text="Cell No"
+                    android:textColor="@color/text_color_left" />
 
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/text_add"
+                    android:gravity="right"
+                    android:hint="enter"
+                    android:inputType="text"
+                    android:maxLength="12"
+                    android:padding="10dip"
+                    android:singleLine="true"
+                    android:textColor="@color/text_color_right"
+                    android:textSize="14sp" />
             </TableRow>
 
+            <!--
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="16dp">
 
+                <Button
+                    android:id="@+id/btnSubmit"
+                    android:layout_width="304dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/table_background"
+                    android:text="SUBMIT"
+                    android:textSize="20dp"
+                    android:textColor="@color/WHITE" />
 
+            </TableRow>
+            -->
 
+            <TableRow
+                android:layout_marginTop="5dp"
+                >
 
+                <FrameLayout android:layout_height="wrap_content">
 
-
+                    <Button
+                        android:id="@+id/SubmitButton"
+                        android:layout_width="152dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="20dp"
+                        android:background="@color/table_background"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:text="Submit"
+                        android:textAllCaps="false"
+                        android:textColor="@color/WHITE"
+                        android:textSize="20dp"></Button>
+                </FrameLayout>
+            </TableRow>
 
 
         </TableLayout>
 
+
     </ScrollView>
+
 
 </LinearLayout>

@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="in.co.santhoshiot.suryaacc_v20">
 
+
     <supports-screens
         android:largeScreens="true"
         android:normalScreens="true"
@@ -16,7 +17,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".f_New_Report"></activity>
-        <activity android:name=".f_Manger_page" />
+        <activity android:name=".f_Manger_Page" />
         <activity android:name=".TestActivity" />
         <activity android:name=".Manager_page_Activity" />
         <activity android:name=".Report_Activity" />
@@ -28,5 +29,9 @@
             </intent-filter>
         </activity>
     </application>
+
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+
+
 
 </manifest>
