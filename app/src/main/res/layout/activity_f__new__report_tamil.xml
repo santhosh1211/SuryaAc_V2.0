@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".f_New_Report">
+    >
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -13,11 +13,13 @@
 
         >
 
+
         <TableLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:stretchColumns="*">
 
+            <!--
             <TableRow
                 android:background="@color/table_background"
                 android:gravity="center_horizontal">
@@ -25,14 +27,13 @@
                 <TextView
                     android:gravity="center_horizontal"
                     android:padding="10dip"
-                    android:text="Surya Enterprises report"
+                    android:text="சூர்யா என்டர்ப்ரிசேஸ் ரிப்போர்ட்"
                     android:textAllCaps="true"
                     android:textColor="@color/WHITE"
                     android:textSize="22dp"
-
                     />
-
             </TableRow>
+            -->
 
             <TableRow>
 
@@ -41,7 +42,7 @@
                     android:layout_weight="1"
                     android:background="@color/text_add"
                     android:padding="10dip"
-                    android:text="Vehicle No"
+                    android:text="வண்டி எண் "
                     android:textColor="@color/text_color_left" />
 
                 <EditText
@@ -65,7 +66,7 @@
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:padding="10dip"
-                    android:text="Start Date"
+                    android:text="தொடங்கிய தேதி "
                     android:textColor="@color/text_color_left" />
 
                 <TextView
@@ -102,7 +103,7 @@
                     android:layout_weight="1"
                     android:background="@color/text_add"
                     android:padding="10dip"
-                    android:text="Close Date"
+                    android:text="முடிந்த தேதி "
                     android:textColor="@color/text_color_left" />
 
                 <TextView
@@ -172,7 +173,7 @@
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:padding="10dip"
-                    android:text="Point No"
+                    android:text="பாயிண்ட் எண் "
                     android:textColor="@color/text_color_left" />
 
                 <EditText
@@ -196,7 +197,7 @@
                     android:layout_weight="1"
                     android:background="@color/text_add"
                     android:padding="10dip"
-                    android:text="T.P No"
+                    android:text="டி .பி. எண் "
                     android:textColor="@color/text_color_left" />
 
                 <EditText
@@ -219,7 +220,7 @@
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:padding="10dip"
-                    android:text="Place"
+                    android:text="ஊர் "
                     android:textColor="@color/text_color_left" />
 
                 <EditText
@@ -243,7 +244,7 @@
                     android:layout_weight="1"
                     android:background="@color/text_add"
                     android:padding="10dip"
-                    android:text="Advance"
+                    android:text="அட்வான்ஸ் "
                     android:textColor="@color/text_color_left" />
 
                 <EditText
@@ -267,7 +268,7 @@
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:padding="10dip"
-                    android:text="Agent Name"
+                    android:text="ஏஜென்ட் பெயர் "
                     android:textColor="@color/text_color_left" />
 
                 <EditText
@@ -291,7 +292,7 @@
                     android:layout_weight="1"
                     android:background="@color/text_add"
                     android:padding="10dip"
-                    android:text="Cell No"
+                    android:text="தொலைபேசி எண் "
                     android:textColor="@color/text_color_left" />
 
                 <EditText
@@ -342,7 +343,7 @@
                         android:background="@color/table_background"
                         android:paddingLeft="20dp"
                         android:paddingRight="20dp"
-                        android:text="Submit"
+                        android:text="நிறைவு "
                         android:textAllCaps="false"
                         android:textColor="@color/WHITE"
                         android:textSize="20dp"></Button>

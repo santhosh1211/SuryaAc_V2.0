@@ -3,39 +3,39 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
+
     >
-
-
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:stretchColumns="1">
 
+       <!--
         <TableRow
             android:gravity="center_horizontal"
             android:background="@color/table_background"
             >
             <TextView
-                android:text="Surya Enterprises"
+                android:text="சூர்யா என்டர்ப்ரிசேஸ் "
                 android:textAllCaps="true"
                 android:padding="10dip"
                 android:textSize="22dp"
                 android:gravity="center_horizontal"
                 android:textColor="@color/WHITE"
                 />
-
         </TableRow>
         -->
 
         <TableRow>
             <TextView
-                android:text="Manager"
+                android:text="மேனேஜர் "
                 android:padding="10dip"
                 android:background="@color/text_add"
                 android:textColor="@color/text_color_left"
                 />
             <TextView
-                android:text="kumar"
+                android:text="குமார் "
                 android:background="@color/text_add"
                 android:gravity="right"
                 android:textColor="@color/text_color_right"
@@ -44,7 +44,7 @@
 
         <TableRow>
             <TextView
-                android:text="No of Points Closed"
+                android:text="பாயிண்ட்ஸ் "
                 android:background="@color/text_even"
                 android:textColor="@color/text_color_left"
                 android:padding="10dip" />
@@ -103,15 +103,14 @@
         <TableRow>
             <TextView
                 android:text="Info"
-                android:padding="10dip"
                 android:textColor="@color/text_color_left"
                 android:background="@color/text_even"
-                />
+                android:padding="10dip" />
             <TextView
                 android:text="data"
+                android:gravity="right"
                 android:background="@color/text_even"
                 android:textColor="@color/text_color_right"
-                android:gravity="right"
                 android:padding="10dip" />
         </TableRow>
 
@@ -133,18 +132,60 @@
         <TableRow>
             <TextView
                 android:text="Info"
-                android:padding="10dip"
                 android:textColor="@color/text_color_left"
                 android:background="@color/text_even"
+                android:padding="10dip" />
+            <TextView
+                android:text="data"
+                android:gravity="right"
+                android:background="@color/text_even"
+                android:textColor="@color/text_color_right"
+                android:padding="10dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Info"
+                android:padding="10dip"
+                android:textColor="@color/text_color_left"
+                android:background="@color/text_add"
                 />
             <TextView
                 android:text="data"
-                android:background="@color/text_even"
+                android:background="@color/text_add"
                 android:textColor="@color/text_color_right"
                 android:gravity="right"
                 android:padding="10dip" />
         </TableRow>
 
+        <TableRow>
+            <TextView
+                android:text="Info"
+                android:textColor="@color/text_color_left"
+                android:background="@color/text_even"
+                android:padding="10dip" />
+            <TextView
+                android:text="data"
+                android:gravity="right"
+                android:background="@color/text_even"
+                android:textColor="@color/text_color_right"
+                android:padding="10dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Info"
+                android:padding="10dip"
+                android:textColor="@color/text_color_left"
+                android:background="@color/text_add"
+                />
+            <TextView
+                android:text="data"
+                android:background="@color/text_add"
+                android:textColor="@color/text_color_right"
+                android:gravity="right"
+                android:padding="10dip" />
+        </TableRow>
 
 
 
@@ -164,7 +205,7 @@
                     android:background="@color/table_background"
                     android:paddingLeft="20dp"
                     android:paddingRight="20dp"
-                    android:text="New report"
+                    android:text="புது ரிப்போர்ட் "
                     android:textAllCaps="false"
                     android:textColor="@color/WHITE"
                     android:textSize="20dp"></Button>

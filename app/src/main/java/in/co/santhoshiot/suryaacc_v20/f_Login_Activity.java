@@ -7,9 +7,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class Login_Activity extends AppCompatActivity {
+public class f_Login_Activity extends AppCompatActivity {
 
-    private static final String TAG = "Login_Activity";
+    private static final String TAG = "f_Login_Activity";
 
     private EditText username;
     private EditText password;
@@ -37,7 +37,7 @@ public class Login_Activity extends AppCompatActivity {
         Login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Login_Activity.this, Report_Activity.class);
+                Intent intent = new Intent(f_Login_Activity.this, Report_Activity.class);
                 startActivity(intent);
                 validate(username.getText().toString(),password.getText().toString());
             }
@@ -54,12 +54,11 @@ public class Login_Activity extends AppCompatActivity {
     }
 
     private void validate(String username, String password){
-        if((username.equals("user")) && (password.equals("user2"))){
-            Intent intent = new Intent(Login_Activity.this, f_Manger_Page.class);
+       // if((username.equals("user")) && (password.equals("user2"))){
+            Intent intent = new Intent(f_Login_Activity.this, f_Manger_Page_Tamil.class);
             startActivity(intent);
-        }
+       // }
     }
-
 
 
 }

@@ -2,12 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="in.co.santhoshiot.suryaacc_v20">
 
-
     <supports-screens
         android:largeScreens="true"
         android:normalScreens="true"
         android:smallScreens="true"
         android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
         android:allowBackup="true"
@@ -16,12 +17,35 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".f_New_Report"></activity>
-        <activity android:name=".f_Manger_Page" />
+        <activity
+            android:name=".f_language"
+            android:label="மொழி "
+            android:parentActivityName=".f_Manger_Page_Tamil"
+            android:theme="@style/AppTheme1"
+            ></activity>
+        <activity
+            android:name=".f_About"
+            android:label="About"
+            android:parentActivityName=".f_Manger_Page_Tamil"
+            android:theme="@style/AppTheme1" />
+        <activity android:name=".f_New_Report"
+            android:theme="@style/notheme"/>
+        <activity
+            android:name=".f_Manger_Page_Tamil"
+            android:label="சூர்யா என்டர்ப்ரிசேஸ் "
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".f_New_Report_tamil"
+            android:label="சூர்யா என்டர்ப்ரிசேஸ் ரிப்போர்ட்"
+            android:theme="@style/AppTheme1" />
+        <activity android:name=".f_Manger_Page"
+            android:theme="@style/notheme"/>
         <activity android:name=".TestActivity" />
         <activity android:name=".Manager_page_Activity" />
         <activity android:name=".Report_Activity" />
-        <activity android:name=".Login_Activity">
+        <activity
+            android:name=".f_Login_Activity"
+            android:theme="@style/notheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -29,9 +53,5 @@
             </intent-filter>
         </activity>
     </application>
-
-    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
-
-
 
 </manifest>

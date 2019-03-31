@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/text_even"
+    tools:context=".f_language">
+
+    <TextView
+        android:id="@+id/tv_tamil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/text_even"
+        android:text="தமிழ் "
+        android:textColor="@color/text_color_left"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/tv_english"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/text_even"
+        android:text="English "
+        android:textColor="@color/text_color_left"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color_left"
+        android:background="@color/text_even"
+        android:textSize="18dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:text="Hindi " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color_left"
+        android:background="@color/text_even"
+        android:textSize="18dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:text="Malayalam " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color_left"
+        android:background="@color/text_even"
+        android:textSize="18dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:text="Kannadam " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color_left"
+        android:background="@color/text_even"
+        android:textSize="18dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:text="Telugu " />
+
+
+
+
+
+
+
+
+</LinearLayout>
