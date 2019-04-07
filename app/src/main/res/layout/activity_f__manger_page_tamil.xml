@@ -35,21 +35,50 @@
                 android:textColor="@color/text_color_left"
                 />
             <TextView
+                android:text="கண்ணன்"
+                android:background="@color/text_add"
+                android:gravity="right"
+                android:textColor="@color/text_color_right"
+                android:padding="10dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="ரிக் வண்டி எண்  "
+                android:background="@color/text_even"
+                android:textColor="@color/text_color_left"
+                android:padding="10dip" />
+            <TextView
+                android:text="tn38 4397"
+                android:gravity="right"
+                android:background="@color/text_even"
+                android:textColor="@color/text_color_right"
+                android:padding="10dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="சப்போர்ட் வண்டி எண்"
+                android:textColor="@color/text_color_left"
+                android:padding="10dip"
+                android:background="@color/text_add"
+                />
+            <TextView
+                android:text="tn38 4398"
+                android:background="@color/text_add"
+                android:textColor="@color/text_color_right"
+                android:gravity="right"
+                android:padding="10dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="ரிக் டிரைவர் "
+                android:textColor="@color/text_color_left"
+                android:background="@color/text_even"
+                android:padding="10dip" />
+            <TextView
                 android:text="குமார் "
-                android:background="@color/text_add"
-                android:gravity="right"
-                android:textColor="@color/text_color_right"
-                android:padding="10dip" />
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:text="பாயிண்ட்ஸ் "
-                android:background="@color/text_even"
-                android:textColor="@color/text_color_left"
-                android:padding="10dip" />
-            <TextView
-                android:text="10"
                 android:gravity="right"
                 android:background="@color/text_even"
                 android:textColor="@color/text_color_right"
@@ -58,42 +87,13 @@
 
         <TableRow>
             <TextView
-                android:text="Info"
-                android:textColor="@color/text_color_left"
-                android:padding="10dip"
-                android:background="@color/text_add"
-                />
-            <TextView
-                android:text="data"
-                android:background="@color/text_add"
-                android:textColor="@color/text_color_right"
-                android:gravity="right"
-                android:padding="10dip" />
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:text="Info"
-                android:textColor="@color/text_color_left"
-                android:background="@color/text_even"
-                android:padding="10dip" />
-            <TextView
-                android:text="data"
-                android:gravity="right"
-                android:background="@color/text_even"
-                android:textColor="@color/text_color_right"
-                android:padding="10dip" />
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:text="Info"
+                android:text="சப்போர்ட் டிரைவர்"
                 android:padding="10dip"
                 android:textColor="@color/text_color_left"
                 android:background="@color/text_add"
                 />
             <TextView
-                android:text="data"
+                android:text="மணி "
                 android:background="@color/text_add"
                 android:textColor="@color/text_color_right"
                 android:gravity="right"
@@ -102,12 +102,12 @@
 
         <TableRow>
             <TextView
-                android:text="Info"
+                android:text="சமயக்காரர் "
                 android:textColor="@color/text_color_left"
                 android:background="@color/text_even"
                 android:padding="10dip" />
             <TextView
-                android:text="data"
+                android:text="பாரதி "
                 android:gravity="right"
                 android:background="@color/text_even"
                 android:textColor="@color/text_color_right"
@@ -116,13 +116,13 @@
 
         <TableRow>
             <TextView
-                android:text="Info"
+                android:text="லேபர் (1)"
                 android:padding="10dip"
                 android:textColor="@color/text_color_left"
                 android:background="@color/text_add"
                 />
             <TextView
-                android:text="data"
+                android:text="குரு "
                 android:background="@color/text_add"
                 android:textColor="@color/text_color_right"
                 android:gravity="right"
@@ -131,12 +131,12 @@
 
         <TableRow>
             <TextView
-                android:text="Info"
+                android:text="லேபர் (2)"
                 android:textColor="@color/text_color_left"
                 android:background="@color/text_even"
                 android:padding="10dip" />
             <TextView
-                android:text="data"
+                android:text="சிவா "
                 android:gravity="right"
                 android:background="@color/text_even"
                 android:textColor="@color/text_color_right"
@@ -145,13 +145,13 @@
 
         <TableRow>
             <TextView
-                android:text="Info"
+                android:text="லேபர் (3)"
                 android:padding="10dip"
                 android:textColor="@color/text_color_left"
                 android:background="@color/text_add"
                 />
             <TextView
-                android:text="data"
+                android:text="கணபதி "
                 android:background="@color/text_add"
                 android:textColor="@color/text_color_right"
                 android:gravity="right"
@@ -160,12 +160,12 @@
 
         <TableRow>
             <TextView
-                android:text="Info"
+                android:text="லேபர் (4)"
                 android:textColor="@color/text_color_left"
                 android:background="@color/text_even"
                 android:padding="10dip" />
             <TextView
-                android:text="data"
+                android:text="முருகேசன் "
                 android:gravity="right"
                 android:background="@color/text_even"
                 android:textColor="@color/text_color_right"
@@ -174,13 +174,13 @@
 
         <TableRow>
             <TextView
-                android:text="Info"
+                android:text="லேபர் (5)"
                 android:padding="10dip"
                 android:textColor="@color/text_color_left"
                 android:background="@color/text_add"
                 />
             <TextView
-                android:text="data"
+                android:text="வேலு "
                 android:background="@color/text_add"
                 android:textColor="@color/text_color_right"
                 android:gravity="right"

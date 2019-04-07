@@ -309,6 +309,248 @@
                     android:textSize="14sp" />
             </TableRow>
 
+            <TableRow android:background="@color/text_even">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="10dip"
+                    android:text="ஏஜென்ட் பெயர் "
+                    android:textColor="@color/text_color_left" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/WHITE"
+                    android:gravity="right"
+                    android:hint="enter"
+                    android:maxLength="12"
+                    android:padding="10dip"
+                    android:singleLine="true"
+                    android:textColor="@color/text_color_right"
+                    android:textSize="14sp" />
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/text_add"
+                    android:padding="10dip"
+                    android:text="தொலைபேசி எண் "
+                    android:textColor="@color/text_color_left" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/text_add"
+                    android:gravity="right"
+                    android:hint="enter"
+                    android:inputType="text"
+                    android:maxLength="12"
+                    android:padding="10dip"
+                    android:singleLine="true"
+                    android:textColor="@color/text_color_right"
+                    android:textSize="14sp" />
+            </TableRow>
+
+
+            <TableRow android:background="@color/text_even">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="10dip"
+                    android:text="ஏஜென்ட் பெயர் "
+                    android:textColor="@color/text_color_left" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/WHITE"
+                    android:gravity="right"
+                    android:hint="enter"
+                    android:maxLength="12"
+                    android:padding="10dip"
+                    android:singleLine="true"
+                    android:textColor="@color/text_color_right"
+                    android:textSize="14sp" />
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/text_add"
+                    android:padding="10dip"
+                    android:text="தொலைபேசி எண் "
+                    android:textColor="@color/text_color_left" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/text_add"
+                    android:gravity="right"
+                    android:hint="enter"
+                    android:inputType="text"
+                    android:maxLength="12"
+                    android:padding="10dip"
+                    android:singleLine="true"
+                    android:textColor="@color/text_color_right"
+                    android:textSize="14sp" />
+            </TableRow>
+
+
+            <TableRow android:background="@color/text_even">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="10dip"
+                    android:text="ஏஜென்ட் பெயர் "
+                    android:textColor="@color/text_color_left" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/WHITE"
+                    android:gravity="right"
+                    android:hint="enter"
+                    android:maxLength="12"
+                    android:padding="10dip"
+                    android:singleLine="true"
+                    android:textColor="@color/text_color_right"
+                    android:textSize="14sp" />
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/text_add"
+                    android:padding="10dip"
+                    android:text="தொலைபேசி எண் "
+                    android:textColor="@color/text_color_left" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/text_add"
+                    android:gravity="right"
+                    android:hint="enter"
+                    android:inputType="text"
+                    android:maxLength="12"
+                    android:padding="10dip"
+                    android:singleLine="true"
+                    android:textColor="@color/text_color_right"
+                    android:textSize="14sp" />
+            </TableRow>
+
+
+            <TableRow android:background="@color/text_even">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="10dip"
+                    android:text="ஏஜென்ட் பெயர் "
+                    android:textColor="@color/text_color_left" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/WHITE"
+                    android:gravity="right"
+                    android:hint="enter"
+                    android:maxLength="12"
+                    android:padding="10dip"
+                    android:singleLine="true"
+                    android:textColor="@color/text_color_right"
+                    android:textSize="14sp" />
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/text_add"
+                    android:padding="10dip"
+                    android:text="தொலைபேசி எண் "
+                    android:textColor="@color/text_color_left" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/text_add"
+                    android:gravity="right"
+                    android:hint="enter"
+                    android:inputType="text"
+                    android:maxLength="12"
+                    android:padding="10dip"
+                    android:singleLine="true"
+                    android:textColor="@color/text_color_right"
+                    android:textSize="14sp" />
+            </TableRow>
+
+
+            <TableRow android:background="@color/text_even">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="10dip"
+                    android:text="ஏஜென்ட் பெயர் "
+                    android:textColor="@color/text_color_left" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/WHITE"
+                    android:gravity="right"
+                    android:hint="enter"
+                    android:maxLength="12"
+                    android:padding="10dip"
+                    android:singleLine="true"
+                    android:textColor="@color/text_color_right"
+                    android:textSize="14sp" />
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/text_add"
+                    android:padding="10dip"
+                    android:text="தொலைபேசி எண் "
+                    android:textColor="@color/text_color_left" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/text_add"
+                    android:gravity="right"
+                    android:hint="enter"
+                    android:inputType="text"
+                    android:maxLength="12"
+                    android:padding="10dip"
+                    android:singleLine="true"
+                    android:textColor="@color/text_color_right"
+                    android:textSize="14sp" />
+            </TableRow>
+
+
+
+
             <!--
             <TableRow
                 android:layout_width="match_parent"
